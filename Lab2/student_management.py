@@ -5,7 +5,7 @@ Created on Thu Sep 21 16:50:30 2023
 @author: Ahsan
 """
 
-# Create an empty dictionary to store student information
+
 student_records = {}
 
 def add_student():
@@ -14,14 +14,14 @@ def add_student():
     email = input("Enter Email: ")
     gender = input("Enter Gender: ")
     
-    # Create a dictionary to store student data
+   
     student_data = {
         "Name": name,
         "Email": email,
         "Gender": gender
     }
     
-    # Add the student data to the records
+
     student_records[reg_number] = student_data
     print("Student added successfully!")
 
